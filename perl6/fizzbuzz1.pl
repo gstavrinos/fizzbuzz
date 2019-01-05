@@ -3,11 +3,11 @@ for 0..100 {
     my $fzbz = False;
     if $_ % 3 == 0 {
         $fzbz = True;
-        print "Fizz"
+        print "Fizz";
     }
     if $_ % 5 == 0 {
         $fzbz = True;
-        print "Buzz"
+        print "Buzz";
     }
     if !$fzbz {
         print $_;
